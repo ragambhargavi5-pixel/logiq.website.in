@@ -1,1 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LogiQ MFG Services Pvt. Ltd | Electronics Manufacturing Services Hyderabad</title>
+<link rel="icon" href="LOGIQ.png">
+<style>
+    html{
+scroll-behavior:smooth;
+}
+    *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
+body{
+background:#f4f6f9;
+color:#333;
+line-height:1.6;
+}
+header{
+background:#001F54;
+color:white;
+text-align:center;
+padding:20px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+header img{
+display:block;
+margin:auto;
+margin-bottom:10px;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00bfff;
+}
+
+.hero{
+background:
+linear-gradient(
+rgba(0,31,84,0.85),
+rgba(0,61,153,0.85)
+),
+url('photo 1.jpg');
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+color:white;
+text-align:center;
+padding:120px 20px;
+ }      
+.hero h2{
+font-size:38px;
+margin-bottom:20px;
+text-shadow:2px 2px 8px rgba(0,0,0,0.6);
+}
+
+
+.hero p{
+font-weight:600;
+text-shadow:2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.btn{
+display:inline-block;
+background:#00bfff;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#0088cc;
+}
+
+section{
+padding:60px 10%;
+}
+
+section h2{
+text-align:center;
+margin-bottom:30px;
+color:#001F54;
+}
+
+.services-grid,
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+background:#eaf2ff;
+}
+
+.stat-box{
+background:white;
+padding:25px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.stat-box h2{
+color:#001F54;
+}
+
+#gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+#gallery img:hover{
+transform:scale(1.05);
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+max-width:600px;
+margin:auto;
+}
+input,
+textarea{
+width:100%;
+padding:15px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+button{
+width:100%;
+padding:15px;
+font-size:18px;
+background:#001F54;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#003d99;
+}
+
+iframe{
+margin-top:20px;
+}
+
+.footer{
+background:#001F54;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+.footer hr{
+margin:20px 0;
+}
+
+a[href*="wa.me"]{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+z-index:999;
+}
+
+@media(max-width:768px){
+
+.hero h2{
+font-size:28px;
+}
+
+section{
+padding:40px 5%;
+}
+
+nav a{
+display:block;
+margin:10px 0;
+}
+}
+header{
+    background:#001F54 !important;
+    color:white !important;
+    text-align:center;
+    padding:25px 20px;
+}
+
+footer,
+.footer{
+    background:#001F54 !important;
+    color:white !important;
+    text-align:center;
+    padding:40px 20px;
+}
+
+nav a{
+    color:white !important;
+}
+.btn{
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+.hero .card{
+background:white;
+color:#001F54;
+}
+
+.hero .card h3{
+color:#001F54;
+}
+
+.hero .services-grid{
+margin-top:30px;
+}
+
+.hero .card{
+padding:15px;
+}
+.highlights-banner{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+margin-top:30px;
+}
+
+.highlight-item{
+background:white;
+color:#001F54;
+padding:15px;
+border-radius:10px;
+font-weight:bold;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+</style>
+
+</head>
+
+<body>
+    <style>
+
+</style>
+<header>
+    <img src="LOGIQ.png" alt="LOGIQ Logo"style="width:180px; height:auto;">
+
+      <h1>LOGIQ MFG SERVICES</h1>
+      <p>Precision Electronics Manufacturing         Solutions</p>
+
+         <nav>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">contact</a>
+          </nav>
+</header>
+  
+  
+<section class="hero">
+    <h2>End-to-End Electronics Manufacturing Services</h2>
+
+    <p>
+        Trusted Electronics Manufacturing Partner for Industrial,
+        Automotive and IoT Solutions
+    </p>
+<a href="#contact" class="btn">Request a Quote</a>
+     
+<div class="services-grid">
+
+<div class="card">
+<h3>10+ Years Experience</h3>
+</div>
+
+<div class="card">
+<h3>50+ Clients</h3>
+</div>
+
+<div class="card">
+<h3>1000+ PCB Assemblies</h3>
+</div>
+
+</div>
+    <p>
+        <b>ISO Standards • Quality Manufacturing • On-Time Delivery</b>
+    </p>
+    <div class="highlights-banner">
+
+<div class="highlight-item">
+🏭 Advanced Manufacturing
+</div>
+
+<div class="highlight-item">
+✅ Quality Assurance
+</div>
+
+<div class="highlight-item">
+⚡ Fast Delivery
+</div><!--  -->
+
+<div class="highlight-item">
+🤝 Trusted EMS Partner
+</div>
+
+</div>
+</section>
+<section id="about">
+
+<h2>About Us</h2>
+
+<p>
+LogiQ MFG Services Pvt. Ltd. is a Hyderabad-based Electronics Manufacturing Services (EMS) company committed to delivering high-quality manufacturing solutions for a wide range of electronic products. Located in Moosapet, Hyderabad, our facility provides reliable and efficient manufacturing support to businesses across various industries.
+</p>
+
+<p>
+Our expertise includes PCB Assembly, SMT Assembly, Through-Hole Assembly, Product Integration, Box Build Assembly, Testing, Inspection, and Design Services. We focus on quality, precision, and customer satisfaction while ensuring on-time project delivery.
+</p>
+
+<p>
+With a dedicated team and modern manufacturing practices, LogiQ MFG Services aims to be a trusted partner for companies seeking dependable electronics manufacturing solutions.
+</p>
+</section>
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="services-grid">
+<div class="card">
+<h3>🔧SMT Assembly</h3>
+<p>High-quality Surface Mount Technology assembly for reliable electronic products.</p>
+</div>
+
+<div class="card">
+<h3>💻PCB Assembly</h3>
+<p>Complete PCB assembly solutions with quality inspection and testing.</p>
+</div>
+
+<div class="card">
+<h3>⚙️Through-Hole Assembly</h3>
+<p>Reliable through-hole assembly services for industrial applications.</p>
+</div>
+
+<div class="card">
+<h3>📦Box Build Assembly</h3>
+<p>End-to-end product assembly and integration solutions.</p>
+</div>
+
+<div class="card">
+<h3>🔗Product Integration</h3>
+<p>System-level integration and product development support.</p>
+</div>
+
+<div class="card">
+<h3>✅Testing & Inspection</h3>
+<p>Comprehensive testing and quality assurance for every product.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>Industries Served</h2>
+
+<div class="services-grid">
+<div class="card">Industrial Electronics</div>
+<div class="card">Automotive Electronics</div>
+<div class="card">IoT Devices</div>
+<div class="card">Consumer Electronics</div>
+</div>
+
+</section>
+
+<section class="section">
+    <h2>Our Achievements</h2>
+ <div class="card">1000+ PCB Assemblies Delivered</div>
+ <div class="card">50+ Satisfied Clients</div>
+<div class="card">99% Quality Compliance</div>
+ <div class="card">On-Time Project Delivery</div>    
+</section>
+<section class="stats">
+
+<div class="stat-box">
+<h2>50+</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat-box">
+<h2>100%</h2>
+<p>Quality Focused</p>
+</div>
+
+<div class="stat-box">
+<h2>24/7</h2>
+<p>Customer Support</p>
+</div>
+
+<div class="stat-box">
+<h2>On-Time</h2>
+<p>Project Delivery</p>
+</div>
+
+</section>
+
+  <section>
+
+<h2>Why Choose LogiQ?</h2>
+<div class="services-grid">
+    
+<div class="card">
+<h3>Quality Manufacturing</h3>
+<p>Advanced manufacturing processes with strict quality control standards.</p>
+</div>
+
+<div class="card">
+<h3>Design Services</h3>
+<p>Product design and engineering support from concept to production.</p>
+</div>
+
+<div class="card">
+<h3>Experienced Team</h3>
+<p>Dedicated professionals focused on delivering reliable manufacturing solutions.</p>
+</div>
+
+<div class="card">
+<h3>On-Time Delivery</h3>
+<p>Efficient production planning and timely project completion.</p>
+</div>
+
+</section>
+
+<section>
+
+<h2>Certifications & Standards</h2>
+
+<div class="card">
+<h3>Quality Focused Manufacturing</h3>
+<p>Committed to maintaining high standards in manufacturing, testing and product delivery.</p>
+</div>
+
+</section>
+
+<section class="section">
+    <h2>Manufacturing Facility</h2>
+
+    <div class="card">Advanced SMT Production Line</div>
+
+    <div class="card">PCB Testing & Inspection</div>
+
+    <div class="card">ESD Safe work Environment</div>
+
+    <div class="card">Quality Assurance lab Process</div>
+</section>
+
+<section id="gallery">
+     <h2>Gallery</h2>
+    <div class=" gallery-grid">
+   
+
+    <img src="photo 1.jpg" alt="Factory Photo" width="100%">
+
+    <br><br>
+
+    <img src="photo 2.jpg" alt="PCB Inspection" width="100%">
+
+    <br><br>
+
+    <img src="photo 3.jpg" alt="SMT Production Line" width="100%">
+</section>
+<section>
+
+<h2>Client Testimonials</h2>
+
+<div class="services-grid">
+
+<div class="card">
+<p>"Excellent PCB assembly quality and on-time delivery."</p>
+<h4>- Industrial Client</h4>
+</div>
+
+<div class="card">
+<p>"Reliable EMS partner for our IoT products."</p>
+<h4>- Technology Client</h4>
+</div>
+
+</div>
+
+</section>
+<section>
+<h2>Our Process</h2>
+
+<div class="services-grid">
+
+<div class="card">
+<h3>1. Requirement Analysis</h3>
+<p>Understanding customer requirements and specifications.</p>
+</div>
+
+<div class="card">
+<h3>2. Manufacturing</h3>
+<p>High-quality SMT and PCB assembly process.</p>
+</div>
+
+<div class="card">
+<h3>3. Testing</h3>
+<p>Quality inspection and reliability testing.</p>
+</div>
+
+<div class="card">
+<h3>4. Delivery</h3>
+<p>On-time product delivery and support.</p>
+</div>
+
+</div>
+</section>
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <p>
+        2nd Floor, H.No.11-6-59 & 59/1,<br>
+        Plot No.4,<br>
+        Opposite IDPL Factory,<br>
+        Bhavani Nagar, Hyderabad, Telangana
+    </p>
+
+    <p>
+        <b>Phone:</b>
+        <a href="tel:+919440325213">+91 9440325213</a>
+    </p>
+
+    <p>
+        <b>Email:</b>
+        ashok@logiqems.com
+    </p>
+
+    <p>
+        <a href="https://wa.me/919440325213">
+            Chat on WhatsApp
+        </a>
+    </p>
+
+    <a href="https://maps.app.goo.gl/RRTA488Zbsq69Cfs9" class="btn">
+        📍 Open Google Maps
+        </a>
+        <iframe
+src="https://www.google.com/maps?q=LogiQ+MFG+Services+Moosapet+Hyderabad&output=embed"
+width="100%"
+height="350"
+style="border:0;border-radius:10px;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+    
+<h2>Get In Touch</h2>
+<p>Looking for reliable electronics manufacturing services? Contact our team today.</p>
+    <form action="https://formsubmit.co/ashok@logiqems.com" method="POST">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="email" name="Email" placeholder="Your Email" required>
+
+<input type="tel" name="Phone" placeholder="Phone Number" required>
+
+<textarea name="Message" placeholder="Your Message" required></textarea>
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_subject" value="New Inquiry from LOGIQ Website">
+
+<button type="submit">Send Inquiry</button>
+
+</form>
+     <h3>Request a Quote</h3>
+
+        <p>
+            Submit your requirements and our team will contact you.
+        </p>
+    </form>
+</section>
+<footer class="footer"><div class="footer-content"><h3>LOGIQ MFG SERVICES PVT. LTD.</h3><p>Precision Electronics Manufacturing Solutions</p><p>
+📍 2nd Floor, H.No.11-6-59 & 59/1, Plot No.4,<br>
+Opposite IDPL Factory, Moosapet, Hyderabad, Telangana
+</p><p>📞 +91 9440325213</p><p> 
+<a href="mailto:ashok@logiqems.com">ashok@logiqems.com</a>
+Providing SMT Assembly, PCB Assembly, Product Integration,
+Testing & Design Services.
+</p><hr><p>
+    <p>
+Facebook | LinkedIn | Instagram
+</p>
+
+<a href="https://wa.me/919440325213"
+style="position:fixed;bottom:20px;right:20px;
+background:#25D366;color:white;padding:15px;
+border-radius:50px;text-decoration:none;
+font-weight:bold;">
+WhatsApp
+</a>
+<p>
+© 2026 LOGIQ MFG SERVICES PVT. LTD. All Rights Reserved.
+</p>
+</p>
+</div>
+</footer>
+</body>
+  </html>
